@@ -7,8 +7,8 @@ export const CHANGE_BOSS_OPTIONS = 'CHANGE_BOSS_OPTIONS'
 export const CHANGE_FILTER_OPTION = 'CHANGE_FILTER_OPTION'
 
 const initialState = {
-  region: 'TWMS',
-  isReboot: false,
+  region: 'GMS',
+  isReboot: true,
   advanced: false,
   bossOptions: ['difficulty', 'characterCount', 'defeatTime'],
   filterOption: 'all',
