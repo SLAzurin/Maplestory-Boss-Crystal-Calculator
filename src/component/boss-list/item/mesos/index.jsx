@@ -33,7 +33,7 @@ const BossMesos = ({ id, name, t }) => {
   const defaultMesos = MesosMapping[currentRegion][name][difficulty]
   const { defeatType } = BossObject[currentRegion][id]
   const mesos = numberFormat(
-    (storeMesos || defaultMesos || 0) * (isReboot ? 3 : 1)
+    (storeMesos || defaultMesos || 0) * (isReboot ? 5 : 1)
   )
 
   return (

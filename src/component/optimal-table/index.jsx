@@ -43,7 +43,7 @@ const useTableData = (t) => {
         boss
       )
     )
-    .map(evolve({ mesos: multiply(isReboot ? 3 : 1) }))
+    .map(evolve({ mesos: multiply(isReboot ? 5 : 1) }))
 
   const totalMesos = mergedData.reduce((total, { mesos }) => total + mesos, 0)
   const totalCount = mergedData.reduce((total, { count }) => total + count, 0)
