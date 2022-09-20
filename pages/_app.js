@@ -58,7 +58,7 @@ const AppHeader = withTranslation('index')(({ t, i18n }) => {
   return (
     <Header className={styles.header}>
       <div className={styles['header-container']}>
-        <h2 style={{ marginBottom: 0 }}>
+        <h2 style={{ marginBottom: 0, color: "white" }}>
           <Link href="/">{t('title')}</Link>
           &nbsp;
         </h2>
