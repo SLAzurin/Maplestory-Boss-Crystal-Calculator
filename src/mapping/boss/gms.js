@@ -752,13 +752,18 @@ const BossList = [
   },
   // 賽蓮
   {
-    id: 36,
+    id: 38,
     name: 'chosen_seren',
     withoutDifficulty: true,
     difficulties: [
       {
         difficulty: 'hard',
         mesos: 151250000,
+        hp: [126000000000000, 0],
+      },
+      {
+        difficulty: 'normal',
+        mesos: 133687500,
         hp: [126000000000000, 0],
       },
     ],
