@@ -59,7 +59,7 @@ const AppHeader = withTranslation('index')(({ t, i18n }) => {
     <Header className={styles.header}>
       <div className={styles['header-container']}>
         <h2 style={{ marginBottom: 0, color: "white" }}>
-          <Link href="/">{t('title')}</Link>
+          <Link href="/">{t('title') + " (Fixed for reboot)"}</Link>
           &nbsp;
         </h2>
         <div style={{ marginLeft: 'auto' }}>
