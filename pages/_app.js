@@ -91,7 +91,7 @@ const AppFooter = withTranslation('index')(({ t }) => (
       </a>
       、<a href="https://maplesalon.vercel.app">{t('web_maplesalon')}</a>
     </div>
-    {t('title')} ©2020 Created by 丫村
+    {t('title')} ©2022 Created by 丫村, modified by <a target="_blank" href='https://github.com/SLAzurin'>SLAzurin/Azuri</a>
   </Footer>
 ))
 
