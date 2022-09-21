@@ -754,23 +754,39 @@ const BossList = [
   {
     id: 38,
     name: 'chosen_seren',
-    withoutDifficulty: true,
+    withoutDifficulty: false,
     difficulties: [
-      {
-        difficulty: 'hard',
-        mesos: 151250000,
-        hp: [126000000000000, 0],
-      },
       {
         difficulty: 'normal',
         mesos: 133687500,
+        hp: [1, 0],
+      },
+      {
+        difficulty: 'hard',
+        mesos: 151250000,
         hp: [126000000000000, 0],
       },
     ],
     defeatType: 'week',
     defeatTime: 1,
     enterType: 'day',
-    enterTime: 1,
+    enterTime: 3,
+  },
+  {
+    id: 39,
+    name: 'kalos',
+    withoutDifficulty: true,
+    difficulties: [
+      {
+        difficulty: 'chaos',
+        mesos: 200000000,
+        hp: [1, 0],
+      },
+    ],
+    defeatType: 'week',
+    defeatTime: 1,
+    enterType: 'day',
+    enterTime: 3,
   },
 ]
 

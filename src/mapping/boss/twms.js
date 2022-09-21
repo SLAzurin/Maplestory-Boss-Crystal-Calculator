@@ -915,10 +915,16 @@ const BossList = [
   },
   // 賽蓮
   {
-    id: 36,
+    id: 38,
     name: 'chosen_seren',
-    withoutDifficulty: true,
+    withoutDifficulty: false,
     difficulties: [
+      {
+        difficulty: 'normal',
+        mesos: 133687500,
+        drops: ['mitras_rage'],
+        hp: [1, 0],
+      },
       {
         difficulty: 'hard',
         mesos: 251350800,
@@ -929,7 +935,23 @@ const BossList = [
     defeatType: 'week',
     defeatTime: 1,
     enterType: 'day',
-    enterTime: 1,
+    enterTime: 3,
+  },
+  {
+    id: 39,
+    name: 'kalos',
+    withoutDifficulty: true,
+    difficulties: [
+      {
+        difficulty: 'chaos',
+        mesos: 200000000,
+        hp: [1, 0],
+      },
+    ],
+    defeatType: 'week',
+    defeatTime: 1,
+    enterType: 'day',
+    enterTime: 3,
   },
 ]
 
