@@ -953,6 +953,22 @@ const BossList = [
     enterType: 'day',
     enterTime: 3,
   },
+  {
+    id: 40,
+    name: 'kaling',
+    withoutDifficulty: true,
+    difficulties: [
+      {
+        difficulty: 'chaos',
+        mesos: 1,
+        hp: [1, 0],
+      },
+    ],
+    defeatType: 'week',
+    defeatTime: 1,
+    enterType: 'day',
+    enterTime: 3,
+  },
 ]
 
 export default BossList

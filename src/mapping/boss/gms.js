@@ -544,6 +544,14 @@ const BossList = [
           party: 3000,
         },
       },
+      {
+        difficulty: 'extreme',
+        mesos: 221000000,
+        contribution: {
+          self: 1500,
+          party: 3000,
+        },
+      },
     ],
     defeatType: 'week',
     defeatTime: 1,
@@ -580,7 +588,7 @@ const BossList = [
     difficulties: [
       {
         difficulty: 'normal',
-        mesos: 47498700,
+        mesos: 34322000,
         contribution: {
           self: 1500,
           party: 3000,
@@ -588,7 +596,7 @@ const BossList = [
       },
       {
         difficulty: 'chaos',
-        mesos: 148071700,
+        mesos: 95731250,
         contribution: {
           self: 1500,
           party: 3000,
@@ -637,6 +645,14 @@ const BossList = [
     name: 'will',
     difficulties: [
       {
+        difficulty: 'easy',
+        mesos: 38255000,
+        contribution: {
+          self: 1500,
+          party: 3000,
+        },
+      },
+      {
         difficulty: 'normal',
         mesos: 46512500,
         contribution: {
@@ -646,7 +662,7 @@ const BossList = [
       },
       {
         difficulty: 'hard',
-        mesos: 88200000,
+        mesos: 97020000,
         contribution: {
           self: 1500,
           party: 3000,
@@ -687,11 +703,18 @@ const BossList = [
   {
     id: 33,
     name: 'verus_hilla',
-    withoutDifficulty: true,
     difficulties: [
       {
+        difficulty: 'normal',
+        mesos: 93100800,
+        contribution: {
+          self: 1500,
+          party: 3000,
+        },
+      },
+      {
         difficulty: 'hard',
-        mesos: 110450000,
+        mesos: 116138000,
         contribution: {
           self: 1500,
           party: 3000,
@@ -717,8 +740,8 @@ const BossList = [
         },
       },
       {
-        difficulty: 'chaos',
-        mesos: 96800000,
+        difficulty: 'hard',
+        mesos: 101641000,
         contribution: {
           self: 1500,
           party: 3000,
@@ -738,7 +761,15 @@ const BossList = [
     difficulties: [
       {
         difficulty: 'hard',
-        mesos: 500000000,
+        mesos: 750000000,
+        contribution: {
+          self: 2000,
+          party: 3000,
+        },
+      },
+      {
+        difficulty: 'extreme',
+        mesos: 3000000000,
         contribution: {
           self: 2000,
           party: 3000,
@@ -758,12 +789,17 @@ const BossList = [
     difficulties: [
       {
         difficulty: 'normal',
-        mesos: 133687500,
+        mesos: 138001000,
         hp: [1, 0],
       },
       {
         difficulty: 'hard',
-        mesos: 151250000,
+        mesos: 181500000,
+        hp: [126000000000000, 0],
+      },
+      {
+        difficulty: 'extreme',
+        mesos: 683650000,
         hp: [126000000000000, 0],
       },
     ],
@@ -775,11 +811,25 @@ const BossList = [
   {
     id: 39,
     name: 'kalos',
-    withoutDifficulty: true,
     difficulties: [
       {
+        difficulty: 'easy',
+        mesos: 154521000,
+        hp: [1, 0],
+      },
+      {
+        difficulty: 'normal',
+        mesos: 206335000,
+        hp: [1, 0],
+      },
+      {
         difficulty: 'chaos',
-        mesos: 200000000,
+        mesos: 412530000,
+        hp: [1, 0],
+      },
+      {
+        difficulty: 'extreme',
+        mesos: 824749000,
         hp: [1, 0],
       },
     ],
@@ -788,6 +838,36 @@ const BossList = [
     enterType: 'day',
     enterTime: 3,
   },
+  {
+    id: 40,
+    name: 'kaling',
+    difficulties: [
+      {
+        difficulty: 'easy',
+        mesos: 170502000,
+        hp: [1, 0],
+      },
+      {
+        difficulty: 'normal',
+        mesos: 237108000,
+        hp: [1, 0],
+      },
+      {
+        difficulty: 'hard',
+        mesos: 473886000,
+        hp: [1, 0],
+      },
+      {
+        difficulty: 'extreme',
+        mesos: 948461000,
+        hp: [1, 0],
+      },
+    ],
+    defeatType: 'week',
+    defeatTime: 1,
+    enterType: 'day',
+    enterTime: 3,
+  }
 ]
 
 export default BossList

@@ -141,6 +141,38 @@ function Home({ t }) {
     <Fragment>
       <Content className={styles.content}>
         <Row gutter={[8, 8]}>
+          <Col span={24} style={{ textAlign: 'center', color: 'red' }}>
+            Warning! The Maplestory Boss Crystal Calculator is reaching end of
+            life.
+            <br />
+            <br />
+            The v255 update introduced a new Maple Planner feature to track your
+            bossing progress which makes this website obsolete. <br />
+            This tool is no longer supported and will no longer be updated. (as
+            of November 26 2024) <br />
+            Please use the new in-game planner instead. <br />
+            <br />
+            Thank you for using the boss crystal calculator Reboot edition
+            edited by <code style={{ color: 'blue' }}>Azuri</code>. Reddit:{' '}
+            <a
+              style={{ color: 'blue' }}
+              href="https://www.reddit.com/user/Omnoloko"
+            >
+              u/Omnoloko
+            </a>{' '}
+            Twitch:{' '}
+            <a
+              style={{ color: 'blue' }}
+              href="https://www.twitch.tv/azuridayo_"
+            >
+              AzuriDayo_
+            </a>
+            .
+          </Col>
+        </Row>
+      </Content>
+      <Content className={styles.content}>
+        <Row gutter={[8, 8]}>
           <Col span={24}>
             <SettingCard />
           </Col>
